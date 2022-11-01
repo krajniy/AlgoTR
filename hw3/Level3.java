@@ -29,6 +29,6 @@ public class Level3 {
         for (int j : toSort) {
             result.append((char) j);
         }
-        return result.toString();
+        return result.toString().toUpperCase();
     }
 }
