@@ -1,6 +1,7 @@
 package HWs.hw3;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Level2 {
     public static void main(String[] args) {

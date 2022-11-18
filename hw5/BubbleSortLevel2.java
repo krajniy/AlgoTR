@@ -12,7 +12,7 @@ public class BubbleSortLevel2 {
 
         int[] array = createArray();
         bubbleSort(array);
-
+        System.out.println("After sort: ");
         System.out.println(Arrays.toString(array));
 
     }
@@ -27,7 +27,13 @@ public class BubbleSortLevel2 {
     }
 
     public static void bubbleSort(int[] array) {
+        System.out.println("Before sort: ");
+        System.out.println(Arrays.toString(array));
+        System.out.println("States: ");
+
         for (int i = 0; i < array.length; i++) {
+            System.out.println(Arrays.toString(array));
+
             for (int j = array.length - 1; j > i; j--) {
                 if (array[j] > array[i]) {
                     int tmp = array[i];
