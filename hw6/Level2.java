@@ -9,11 +9,11 @@ public class Level2 {
     //        Каждая сторона котлеты прожаривается за 1 минуту.
     //                За сколько времени вы сможете прожарить все котлеты со всех сторон?
 
-        int toCook = 3;
-        int atOnce = 2;
+        double toCook = 3;
+        double atOnce = 2;
         int timeForOne = 1;
 
-        int timeResult = toCook / atOnce * 2 * timeForOne;
+        double timeResult = toCook / atOnce * 2 * timeForOne;
 
         System.out.println(timeResult);
 
